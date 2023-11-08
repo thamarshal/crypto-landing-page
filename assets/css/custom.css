@@ -32,14 +32,13 @@ html, body{
     padding: 15px;
 }
 .margint{
-    margin-bottom: -170px !important;
-    /* z-index: 9 !important;  */
+    position: relative !important;
+    z-index: 1;
+    top: 120px;
 }
-.empty{
-    min-height: 150px;
-    z-index: 8;
+.bg-light{
+    padding-top: 120px;
 }
 .fast{
     font-size: 53px !important;
-    /* border-radius: 70% !important; */
 }
